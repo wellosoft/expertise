@@ -60,14 +60,14 @@ namespace expertise_extras
             }
         }
 
-        // Predefined status code
+        // Predefined status code and its attributes
         static string[] statCodes =
         {
-            "<x class=\"x0\">Active</x>",
-            "<x class=\"x1\">In Progress</x>",
-            "<x class=\"x2\">Archived</x>",
-            "<x class=\"x3\">Deprecated</x>",
-            "<x class=\"x4\">Abandoned</x>",
+            "<x class=\"x0\" title=\"The project is under active development\">Active</x>",
+            "<x class=\"x1\" title=\"The project is under heavy development and not production ready\">In Progress</x>",
+            "<x class=\"x2\" title=\"The project have not been updated for past few months\">Archived</x>",
+            "<x class=\"x3\" title=\"The project have been replaced with newer project\">Deprecated</x>",
+            "<x class=\"x4\" title=\"The project is no longer been updated and have been lost in time or fail to be production ready or don't meet the project criteria\">Abandoned</x>",
         };
     }
 

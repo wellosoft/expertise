@@ -148,6 +148,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/graphics-xmaslights.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/graphics-xmaslights.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/interactive-expertise.jpg",
       "output": {
         "resource": {
@@ -312,12 +323,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "J+ubMdGIKIZfqUOh70dbKg=="
+          "hash": "VHQSa0tpVM+oe5rkJeaAFg=="
         }
       },
       "is_incremental": false,

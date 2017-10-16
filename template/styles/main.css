@@ -6,6 +6,9 @@ body {
     display: none;
 }
 
+.counting {
+	display:inline-block;
+}
 /* navbar - deprecated */
 
 .navbar .navbar-nav {

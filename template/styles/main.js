@@ -20,7 +20,9 @@ $(function() {
         var r = $('<button title="Goto projects created in year: ' + years[i] +'" onclick="goScroll(\'' + years[i] + '\')">' + years[i]+'</button>');
         $("#year-selector").append(r);
     }
-    
+
+    /// Generate count
+    $(".counting").text($(".projects").length);
 });
 
 function goHideTag(tag)
