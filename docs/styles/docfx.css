@@ -716,7 +716,7 @@ footer {
   background-color: #f8f8f8;
   padding: 15px 0;
 }
-/*@media (min-width: 768px) {*/
+@media (min-width: 768px) {
   #sidetoggle.collapse {
     display: block;
   }
@@ -728,13 +728,12 @@ footer {
     float: none;
     display: inline-block;
   }
-/*
 }
 @media only screen and (max-width: 768px) {
   #mobile-indicator {
     display: block;
   }
- 
+  /* TOC display for responsive */
   .article {
     margin-top: 30px !important;
   }
@@ -791,9 +790,9 @@ footer {
   .sidetoggle.ng-hide {
     display: none !important;
   }
-  .expand-all {
+  /*.expand-all {
     display: none;
-  }
+  }*/
   .sideaffix {
     display: none;
   }
@@ -804,6 +803,7 @@ footer {
     white-space: inherit;
   }
 
+  /* workaround for #hashtag url is no longer needed*/
   h1:before,
   h2:before,
   h3:before,
@@ -812,8 +812,8 @@ footer {
       display: none;
   }
 }
-*/
-/* For toc iframe
+
+/* For toc iframe */
 @media (max-width: 260px) {
   .toc .level2 > li {
     display: block;
@@ -822,7 +822,7 @@ footer {
   .toc .level2 > li:after {
     display: none;
   }
-}*/
+}
 
 /* For code snippet line highlight */
 pre > code .line-highlight {
