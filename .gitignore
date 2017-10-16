@@ -1,0 +1,14 @@
+###############
+#    folder   #
+###############
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+/template/plugins/
+/images/
+_site
+_exported*
+template/styles/docfx.css
+.vscode/
