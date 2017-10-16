@@ -28,7 +28,7 @@ namespace expertise_extras
 
             // HTML content for project
             StringBuffer result = "<div class=\"projects t-" + meta.tag + " s-" + meta.stat + "\">";
-            result += "<img src=\"" + meta.image + "\">";
+            result += "<div class=\"thumb\"><img src=\"" + meta.image + "\"></div>";
             result += "<div class=\"context\">";
             result += "<h3>" + meta.title + "</h3>";
             result += "<para>" + meta.desc + "</para>";

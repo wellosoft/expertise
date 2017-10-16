@@ -21,7 +21,7 @@ You can use the filter below.
   desc: Personal website to learn Web programming (this website!)
   date: Oct 2017
   tag: Interactive
-  stat: 0
+  stat: 1
 
   art: https://willnode.artstation.com/
 ```
