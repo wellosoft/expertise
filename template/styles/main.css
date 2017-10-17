@@ -9,6 +9,11 @@ body {
 .counting {
 	display:inline-block;
 }
+
+.spacefoot {
+    margin:150px;
+}
+
 /* navbar - deprecated */
 
 .navbar .navbar-nav {

@@ -33,7 +33,7 @@ You can use the filter below.
   desc: A clever way to wrap a file into readable 24-bit bitmap.
   date: Oct 2017
   tag: Tools
-  stat: 2
+  stat: 0
 
   git: https://github.com/willnode/Bitmap-Encoder
 ```
@@ -115,7 +115,6 @@ You can use the filter below.
   art: https://www.artstation.com/artwork/mo5o8
 ```
 
-
 ```proj
   title: Hexaball
   desc: Learning to create Hexaball
@@ -125,17 +124,6 @@ You can use the filter below.
 
   art: https://www.artstation.com/artwork/5GZqz
 ```
-
-```proj
-  title: Nafza Faroidh
-  desc: A calculator for islamic heredity law.
-  date: Mar 2017
-  tag: Tools
-  stat: 2
-
-  git: https://github.com/willnode/Nafza-Faroidh
-```
-
 
 ```proj
   title: Me Rasterized
@@ -206,21 +194,10 @@ You can use the filter below.
 
 ## 2015
 
-
-```proj
-  title: Mesh 4D Engine
-  desc: A mesh morphing library that mimics 4D rotation.
-  date: Dec 2014
-  tag: Library
-  stat: 3
-
-  
-```
-
 ```proj
   title: ComCalc
   desc: A managed library to evaluate math from string
-  date: Nov 2015
+  date: Dec 2015
   tag: Library
   stat: 2
 
@@ -230,8 +207,31 @@ You can use the filter below.
 ```proj
   title: Observatory
   desc: A 1:1 scale of solar system in Unity Game Engine
-  date: Oct 2015
+  date: Nov 2015
   tag: Interactive
+  stat: 2
+
+  git: https://github.com/willnode/Observatory
+  down: https://drive.google.com/open?id=0B0xI21kQ3jxrY0R2OTRoUXZNcDQ
+```
+
+```proj
+  title: Simple Procedural Skybox
+  desc: Shader library for complete produral skybox in Unity.
+  date: Oct 2015
+  tag: Library
+  stat: 2
+
+  pop: https://assetstore.unity.com/packages/vfx/shaders/simple-procedural-skybox-35569
+  doc: http://bit.ly/SimpleProceduralSyboxDocumentation
+  comm: https://forum.unity3d.com/threads/beta-simple-procedural-skybox-3-0.467280/
+```
+
+```proj
+  title: 10 Skyboxes Day Night
+  desc: Collection of static sky panoramas for games.
+  date: Sep 2015
+  tag: Graphics
   stat: 2
 
   git: https://github.com/willnode/Observatory
@@ -249,7 +249,6 @@ You can use the filter below.
   down: https://willnode.itch.io/tthp/purchase
 ```
 
-
 ```proj
   title: NEKER
   desc: A simple marble game, with simple AI.
@@ -261,15 +260,20 @@ You can use the filter below.
 ```
 
 ```proj
-  title: Simple Procedural Skybox
-  desc: Shader library for complete produral skybox in Unity.
+  title: Mesh 4D Engine
+  desc: A mesh morphing library that mimics 4D rotation.
   date: May 2015
   tag: Library
-  stat: 2
+  stat: 3
+```
 
-  pop: https://assetstore.unity.com/packages/vfx/shaders/simple-procedural-skybox-35569
-  doc: http://bit.ly/SimpleProceduralSyboxDocumentation
-  comm: https://forum.unity3d.com/threads/beta-simple-procedural-skybox-3-0.467280/
+
+```proj
+  title: UI Tools
+  desc: A 1:1 scale of solar system in Unity Game Engine
+  date: Apr 2015
+  tag: Library
+  stat: 3
 ```
 
 ```proj
@@ -336,6 +340,6 @@ You can use the filter below.
   down: https://drive.google.com/open?id=0B0xI21kQ3jxrZ3dEd0UzLUhlcU0
 ```
 
-<br class="spacefoot">
+<div class="spacefoot"></div>
 <h6>Total projects: <div class="counting"></div>. (C) 2017 Wildan Mubarok. CC-BY-SA-4.0.</h6>
 <h6>Projects that I've contibute but not own does not appear here. [Back to home](https://willnode.github.io/).</h6>

@@ -82,6 +82,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/graphics-10skyboxesdaynight.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/graphics-10skyboxesdaynight.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/graphics-badgefilmic.jpg",
       "output": {
         "resource": {
@@ -181,6 +192,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/interactive-observatory.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/interactive-observatory.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/interactive-tothehighestplace.jpg",
       "output": {
         "resource": {
@@ -225,6 +247,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/library-mesh4dengine.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/library-mesh4dengine.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/library-simpleproceduralskybox.jpg",
       "output": {
         "resource": {
@@ -247,10 +280,32 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/library-uitools.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/library-uitools.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/tools-bitmapencoder.jpg",
       "output": {
         "resource": {
           "relative_path": "images/tools-bitmapencoder.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/tools-gifandflashviewer.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/tools-gifandflashviewer.jpg"
         }
       },
       "is_incremental": false,
@@ -331,7 +386,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "lHvxpQO63OvDMNKdkbyGfQ=="
+          "hash": "KU4IsHTiIQBspOS7NP0AGw=="
         }
       },
       "is_incremental": false,
@@ -350,9 +405,9 @@
           "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
@@ -363,9 +418,9 @@
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
