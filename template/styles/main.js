@@ -1,4 +1,4 @@
-var years = ["2017", "2016", "2015"];
+var years = ["2017", "2016", "2015", "2014", "2013"];
 var tags = ["Library", "Tools", "Graphics", "Interactive"];
 var stats = ["Active", "In Progress", "Archived", "Deprecated", "Abandoned"];
 
@@ -49,7 +49,7 @@ function goHideStat(stat)
 
 function goScroll(href)
 {
-//    event.preventDefault();
+    // Smooth scroll
     $('html, body').animate({
             scrollTop: $('#' + href).offset().top
     }, 500);
