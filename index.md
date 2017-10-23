@@ -134,6 +134,16 @@ You can use the filter below.
 
 ```
 
+```proj
+  title: Will and Gotta Love Ideas
+  desc: Personal Website (full spirit in motivation and writing)
+  date: Jan 2017
+  tag: Interactive
+  stat: 2
+
+  pop: https://willandgottaloveideas.wordpress.com/
+```
+
 ## 2016
 
 
@@ -164,6 +174,7 @@ You can use the filter below.
   date: Jun 2016
   tag: Tools
   stat: 4
+  image: images/noimagery.jpg
 
   git: https://github.com/willnode/ARVANS
   down: https://drive.google.com/open?id=0B0xI21kQ3jxrYlNXLWI4MXl0MEU
@@ -306,6 +317,7 @@ You can use the filter below.
   date: Oct 2013
   tag: Tools
   stat: 4
+  image: images/noimagery.jpg
 
   down: https://drive.google.com/open?id=0B0xI21kQ3jxrNEJTZ2JFR3MzZXc
 ```
@@ -326,6 +338,7 @@ You can use the filter below.
   date: May 2013
   tag: Tools
   stat: 4
+  image: images/noimagery.jpg
 
   down: https://drive.google.com/open?id=0B0xI21kQ3jxrME9wRUJNTnBLVHM
 ```
@@ -336,6 +349,7 @@ You can use the filter below.
   date: Apr 2013
   tag: Tools
   stat: 4
+  image: images/noimagery.jpg
 
   down: https://drive.google.com/open?id=0B0xI21kQ3jxrZ3dEd0UzLUhlcU0
 ```
