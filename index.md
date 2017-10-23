@@ -21,7 +21,7 @@ You can use the filter below.
   desc: Personal website to learn Web programming (this website!)
   date: Oct 2017
   tag: Interactive
-  stat: 1
+  stat: 0
 
   git: https://github.com/willnode/expertise
   pop: https://willnode.github.io/expertise/index.html
@@ -341,5 +341,6 @@ You can use the filter below.
 ```
 
 <div class="spacefoot"></div>
-<h6>Total projects: <div class="counting"></div>. (C) 2017 Wildan Mubarok. CC-BY-SA-4.0.</h6>
-<h6>Projects that I've contibute but not own does not appear here. [Back to home](https://willnode.github.io/).</h6>
+###### Total projects: <div class="counting"></div>. Last update: `{datetime}`. 
+###### (C) 2017 Wildan Mubarok. CC-BY-SA-4.0. [Git](https://github.com/willnode/expertise). Powered by [DocFX](https://dotnet.github.io/docfx/).
+###### Projects that I've contibute but not own does not appear here. [Back to home](https://willnode.github.io/).
