@@ -97,6 +97,15 @@ h1 {
     color: white;
 }
 
+h3:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: 300px;
+    margin-top: -300px;
+}
+
 /* content styling */
 
 .container{
