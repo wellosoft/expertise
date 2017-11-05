@@ -42,7 +42,7 @@ namespace expertise_extras
             Concat(ref result, "comm", meta.comm, "Forum thread available");
             result += "</ul>";
             result += "<pre>" + meta.date + " - " + meta.tag + " - " + statCodes[meta.stat] + "</pre>";
-            return result + "</div>";
+            return result + "</div>\n";
         }
 
         // Sub html for buttons

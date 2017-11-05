@@ -15,6 +15,16 @@ You can use the filter below.
 
 ## 2017
 
+```proj
+  title: The Web and Blog
+  desc: Personal website for landing page (plus domain)
+  date: Nov 2017
+  tag: Interactive
+  stat: 0
+
+  git: https://github.com/willnode/willnode.github.io
+  pop: http://wellosoft.net
+```
 
 ```proj
   title: Expertise
@@ -33,7 +43,7 @@ You can use the filter below.
   desc: A clever way to wrap a file into readable 24-bit bitmap.
   date: Oct 2017
   tag: Tools
-  stat: 0
+  stat: 2
 
   git: https://github.com/willnode/Bitmap-Encoder
 ```
@@ -43,7 +53,7 @@ You can use the filter below.
   desc: A completely redesigned four dimensional library and toolkits for Unity.
   date: Oct 2017
   tag: Library
-  stat: 1
+  stat: 0
 
   pop: http://u3d.as/fdm
   doc: https://willnode.github.io/engine4-doc/index.html
@@ -358,3 +368,12 @@ You can use the filter below.
 ###### Total projects: <div class="counting"></div>. Last update: `{datetime}`. 
 ###### (C) 2017 Wildan Mubarok. CC-BY-SA-4.0. [Git](https://github.com/willnode/expertise). Powered by [DocFX](https://dotnet.github.io/docfx/).
 ###### Projects that I've contibute but not own does not appear here. [Back to home](https://willnode.github.io/).
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-109180894-1', 'auto'); ga('send', 'pageview');
+</script>
