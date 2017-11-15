@@ -5,7 +5,6 @@
         {% unless jekyll.environment == 'production' %}
             <img src="{{ btnimg | relative_url }}"/>
         {% else %}
-            {% capture serial %}{% include serial.html %}{% endcapture %}
             <img src="https://cdn.rawgit.com/willnode/expertise/{{site.serial}}{{btnimg}}">
         {% endunless %}
     </a>
