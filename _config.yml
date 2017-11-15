@@ -4,6 +4,7 @@ sass:
 
 baseurl: "/expertise" # the subpath of your site, e.g. /blog
 url: "http://wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
+serial: 0d28c3b # the commit hash tag to be effective on rawgit (don't have to be new) (only replace if update existing img)
 
 compress_html:
   clippings: all

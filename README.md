@@ -4,31 +4,16 @@ This repo contains source code and content and generated content for expertise w
 
 # Fork and Setup
 
-The website is generated with DocFX with plugins. More complete procedure:
+The website is generated using Jekyll. All content written to single file `index.html`.
 
-1. Install DocFX, VS 2017.
-2. Open plugin/exprtise-extras.sln
-3. Compile under Release.
-4. Copy images under docs/images/ to images/ 
-5. `docfx --serve`
+# Technologies
 
-# Contents
+Site build with [Jekyll](https://jekyllrb.com/), and other tools:
 
-| File/Folder | Desciption |
-|---|---|
-| docs/ | Generated website |
-| images/ | Image files |
-| plugin/ | Plugin source code |
-| template/ | Custom template files |
-| docfx.json | Global DocFX config |
-| index.md | Website Content |
-
-# Notes
-
-+ `index.md` is the only website content.
-+ images is git ignored because it's a duplicate content with generated docs.
-+ generated plugins is also git ignored and its release compile will be placed under `templates/plugins/`
++ Image CDN: [RawGit](https://rawgit.com)
++ HTML Compress: [compress.html](https://github.com/penibelst/jekyll-compress-html)
++ GA Lite: [ga-lite](https://github.com/jehna/ga-lite)
 
 # License
-Content: CC-BY-SA-4.0
-Plugin & Theme: MIT 
+Content under CC-BY-SA-4.0: `data/`, `images/`.
+Other own content (includes, styles, themes): MIT.

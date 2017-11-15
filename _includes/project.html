@@ -12,14 +12,12 @@
             {% else %}
             <img src="{{ "/images/noimagery.jpg" | relative_url }}">
             {% endif %}
-            {% capture serial %}{% include serial.html %}{% endcapture %}
-            <i>https://cdn.rawgit.com/willnode/expertise/{{serial}}{{imgpath}}</i>
+            <i>https://cdn.rawgit.com/willnode/expertise/{{site.serial}}{{imgpath}}</i>
         {% else %}
-            {% capture serial %}{% include serial.html %}{% endcapture %}
             {% if imgcnt > 0 %}
-            <img src="https://cdn.rawgit.com/willnode/expertise/{{serial}}{{imgpath}}">
+            <img src="https://cdn.rawgit.com/willnode/expertise/{{site.serial}}{{imgpath}}">
             {% else %}
-            <img src="https://cdn.rawgit.com/willnode/expertise/{{serial}}/images/noimagery.jpg">
+            <img src="https://cdn.rawgit.com/willnode/expertise/{{site.serial}}/images/noimagery.jpg">
             {% endif %}
         {% endunless %}
     </div>
