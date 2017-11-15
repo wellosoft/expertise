@@ -1,0 +1,13 @@
+{% include filter-item.html name="None" checked=true %}
+{% for year in include.meta.years %}
+{% include filter-item.html name=year %}
+{% endfor %}
+{% for tag in include.meta.tags %}
+{% include filter-item.html name=tag %}
+{% endfor %}
+{% for stat in include.meta.stats %}
+{% include filter-item.html name=stat %}
+{% endfor %}
+
+{% include filter-item.html name="Two Column" checked=false type="checkbox" %}
+{% include filter-item.html name="Show Headers" checked=true type="checkbox" %}

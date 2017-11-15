@@ -1,0 +1,102 @@
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif;
+    height: 100%;
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h6 {
+    font-size: 12px
+}
+
+h1, h2, h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.spacefoot {
+    margin:150px;
+}
+
+/* header */
+
+body:before {
+	position:absolute;
+	content:'';
+	background:linear-gradient(#700,#fff);
+	top:0px;
+	height:420px;
+	width:100%;
+	right:0px;
+	left:0px;
+	animation: filter-animation 8s infinite;
+    z-index: -1;
+}
+
+@keyframes filter-animation {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+h1 {
+	padding:190px 0px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* content styling */
+
+ h2:after, h2:before {
+content:'';
+border-top: 1px solid #ccc;
+vertical-align:bottom;
+display:inline-block;
+width:40%;
+margin-right:1%;
+margin-left:1%;
+height:0.5em;
+
+}
+
+h2 {
+white-space:nowrap;
+overflow: hidden;
+}
+
+pre {
+	padding: 1px 5px;
+    width: 100%;
+    font-size: 13px;
+    white-space: normal;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    margin: 0px;
+}
+
+/* filters */
+
+{% include filter.scss meta=site.data.metadata %}

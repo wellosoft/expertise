@@ -1,0 +1,40 @@
+{% for year in include.projects %}
+<h2 id="year.year.year">{{ year.year.year }}</h2>
+{% for project in year.year.projects %}
+<div class="projects mask-{{ year.year.year }} mask-{{project.tag | downcase }} mask-{{project.stat | downcase }}">
+    {% capture slug %}{{ project.title | downcase | replace: ' ', '' }}{% endcapture %}
+    <div class="thumb" id="{{ slug }}">
+        {% capture imgpath %}/images/{{project.tag | downcase }}-{{ slug }}.jpg{% endcapture %}
+        {% assign imgcnt = site.static_files | where: "path", imgpath | size %}
+        {% unless jekyll.environment == 'production' %}
+            {% if imgcnt > 0 %}
+            <img src="{{ imgpath | relative_url }}">
+            {% else %}
+            <img src="{{ "/images/noimagery.jpg" | relative_url }}">
+            {% endif %}
+            {% capture serial %}{% include serial.html %}{% endcapture %}
+            <i>https://cdn.rawgit.com/willnode/expertise/{{serial}}{{imgpath}}</i>
+        {% else %}
+            {% capture serial %}{% include serial.html %}{% endcapture %}
+            {% if imgcnt > 0 %}
+            <img src="https://cdn.rawgit.com/willnode/expertise/{{serial}}{{imgpath}}">
+            {% else %}
+            <img src="https://cdn.rawgit.com/willnode/expertise/{{serial}}/images/noimagery.jpg">
+            {% endif %}
+        {% endunless %}
+    </div>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.desc }}</p>
+    <ul>
+        {% include project-button.html btn="pop" link=project.pop %}
+        {% include project-button.html btn="git" link=project.git %}
+        {% include project-button.html btn="art" link=project.art %}
+        {% include project-button.html btn="yt" link=project.yt %}
+        {% include project-button.html btn="doc" link=project.doc %}
+        {% include project-button.html btn="comm" link=project.comm %}
+        {% include project-button.html btn="down" link=project.down %}
+    </ul>
+    <pre>{{ project.date }} - {{ project.tag }} - <x class="x-{{ project.stat }}">{{ project.stat }}</x></pre>
+</div>
+{% endfor %}
+{% endfor %}
