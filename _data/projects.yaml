@@ -1,0 +1,269 @@
+
+- year:
+    year: 2017
+    projects:
+
+    - title: ASCII Painter
+      desc: Paint text and make art with it
+      date: Nov 2017
+      tag: Tools
+      stat: Active
+      git: https://github.com/willnode/Ascii-Painter
+
+    - title: The Web and Blog
+      desc: Personal website for landing page
+      date: Nov 2017
+      tag: Interactive
+      stat: Active
+      git: https://github.com/willnode/willnode.github.io
+      pop: http://wellosoft.net
+
+    - title: Expertise
+      desc: Personal website to learn Web programming (this website!)
+      date: Oct 2017
+      tag: Interactive
+      stat: Active
+      git: https://github.com/willnode/expertise
+      pop: https://willnode.github.io/expertise/index.html
+
+    - title: Bitmap Encoder
+      desc: A clever way to wrap a file into readable 24-bit bitmap.
+      date: Oct 2017
+      tag: Tools
+      stat: Archived
+      git: https://github.com/willnode/Bitmap-Encoder
+
+    - title: Engine4
+      desc: A completely redesigned four dimensional library and toolkits for Unity.
+      date: Oct 2017
+      tag: Library
+      stat: Active
+      pop: http://u3d.as/fdm
+      doc: https://willnode.github.io/engine4-doc/index.html
+      comm: https://forum.unity3d.com/threads/released-engine4-create-4d-objects-in-unity.320549/
+
+    - title: Network Facts
+      desc: All in one network tool with nice GUI.
+      date: Sep 2017
+      tag: Tools
+      stat: Archived
+      git: https://github.com/willnode/Network-Facts
+
+    - title: Iconizer
+      desc: Bitmap to Icon made easy.
+      date: Aug 2017
+      tag: Tools
+      stat: Archived
+      git: https://github.com/willnode/Iconizer
+      down: https://github.com/willnode/Iconizer/blob/master/Info/Iconizer.exe
+
+    - title: Socket Clipboard
+      desc: A simple way to share clipboard data across LAN.
+      date: Jul 2017
+      tag: Tools
+      stat: Active
+      down: https://github.com/willnode/Socket-Clipboard/releases
+      git: https://github.com/willnode/Socket-Clipboard
+
+    - title: Matrix N Programmer
+      desc: Write matrix inversion code in any size.
+      date: Jun 2017
+      tag: Tools
+      stat: Archived
+      git: https://github.com/willnode/N-Matrix-Programmer
+
+    - title: Mouse Swapper
+      desc: Rotate display with the mouse gesture made possible.
+      date: May 2017
+      tag: Tools
+      stat: Archived
+      git: https://github.com/willnode/MouseSwapper
+      down: https://github.com/WelloSoft/MouseSwapper/raw/master/Build/MouseSwapper.exe
+
+    - title: Badge Filmic
+      desc: A static rendering for Wello Soft icon.
+      date: Apr 2017
+      tag: Graphics
+      stat: Archived
+      art: https://www.artstation.com/artwork/mo5o8
+
+    - title: Hexaball
+      desc: Learning to create Hexaball
+      date: Apr 2017
+      tag: Graphics
+      stat: Archived
+      art: https://www.artstation.com/artwork/5GZqz
+
+    - title: Me Rasterized
+      desc: An iconic rasterized photo for myself :)
+      date: Feb 2017
+      tag: Graphics
+      stat: Archived
+
+    - title: Will and Gotta Love Ideas
+      desc: Personal Website (full spirit in motivation and writing)
+      date: Jan 2017
+      tag: Interactive
+      stat: Archived
+      pop: https://willandgottaloveideas.wordpress.com/
+
+- year:
+    year: 2016
+    projects:
+
+    - title: Xmas Lights
+      desc: Learning light and effects in Blender
+      date: Dec 2016
+      tag: Graphics
+      stat: Abandoned
+
+    - title: Camera Projecter
+      desc: Camera shader packs to render beyond 180 degree in Unity
+      date: Oct 2016
+      tag: Library
+      stat: Active
+      pop: https://assetstore.unity.com/packages/tools/camera/camera-projecter-86733
+      doc: http://bit.ly/CameraProjecterDocumentation
+      commm: https://forum.unity3d.com/threads/camera-projecter-render-beyond-180.470613/
+
+    - title: ARVANS
+      desc: Simple script blocker.
+      date: Jun 2016
+      tag: Tools
+      stat: Abandoned
+      image: images/noimagery.jpg
+      git: https://github.com/willnode/ARVANS
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrYlNXLWI4MXl0MEU
+
+    - title: Beaker Drop
+      desc: Short animation to test physics in Blender.
+      date: Apr 2016
+      tag: Graphics
+      stat: Archived
+      art: https://www.artstation.com/artwork/1QXoo
+      yt: https://youtu.be/Qw7-2-PemRw
+
+    - title: TEXDraw
+      desc: A component to let you draw math expressions inside Unity Game Engine.
+      date: Jan 2016
+      tag: Library
+      stat: Active
+      pop: https://assetstore.unity.com/packages/tools/gui/texdraw-51426
+      doc: https://drive.google.com/open?id=0B0xI21kQ3jxrQUdTT0t0VHpWV0k
+      comm: http://forum.unity3d.com/threads/released-texdraw-create-math-expressions-in-unity.379305/
+
+- year:
+    year: 2015
+    projects:
+
+    - title: ComCalc
+      desc: A managed library to evaluate math from string
+      date: Dec 2015
+      tag: Library
+      stat: Archived
+      git: https://github.com/willnode/Nafza-Faroidh
+
+    - title: Observatory
+      desc: A 1:1 scale of solar system in Unity Game Engine
+      date: Nov 2015
+      tag: Interactive
+      stat: Archived
+      git: https://github.com/willnode/Observatory
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrY0R2OTRoUXZNcDQ
+
+    - title: Simple Procedural Skybox
+      desc: Shader library for complete produral skybox in Unity.
+      date: Oct 2015
+      tag: Library
+      stat: Archived
+      pop: https://assetstore.unity.com/packages/vfx/shaders/simple-procedural-skybox-35569
+      doc: http://bit.ly/SimpleProceduralSyboxDocumentation
+      comm: https://forum.unity3d.com/threads/beta-simple-procedural-skybox-3-0.467280/
+
+    - title: 10 Skyboxes Day Night
+      desc: Collection of static sky panoramas for games.
+      date: Sep 2015
+      tag: Graphics
+      stat: Archived
+      git: https://github.com/willnode/Observatory
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrY0R2OTRoUXZNcDQ
+
+    - title: To The Highest Place
+      desc: A 3D ball game to make you move to a higher level.
+      date: Aug 2015
+      tag: Interactive
+      stat: Archived
+      pop: http://willnode.itch.io/tthp
+      down: https://willnode.itch.io/tthp/purchase
+
+    - title: NEKER
+      desc: A simple marble game, with simple AI.
+      date: Jul 2015
+      tag: Interactive
+      stat: Archived
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrbDQtWkZqQkhtc1E
+
+    - title: Mesh 4D Engine
+      desc: A mesh morphing library that mimics 4D rotation.
+      date: May 2015
+      tag: Library
+      stat: Deprecated
+
+    - title: UI Tools
+      desc: A 1:1 scale of solar system in Unity Game Engine
+      date: Apr 2015
+      tag: Library
+      stat: Deprecated
+
+    - title: Home Remake
+      desc: Learning architects in Blender (and my home!).
+      date: Apr 2015
+      tag: Graphics
+      stat: Archived
+      art: https://www.artstation.com/artwork/zwWoq
+
+- year:
+    year: 2014
+    projects:
+
+    - title: TWIB Tool
+      desc: All in one monitoring tool that sits on the desktop sidebar.
+      date: Oct 2014
+      tag: Tools
+      stat: Abandoned
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrUUZEeTYzSkZBVlk
+
+- year:
+    year: 2013
+    projects:
+
+    - title: Advanced Player
+      desc: All in one monitoring tool that sits on the desktop sidebar.
+      date: Oct 2013
+      tag: Tools
+      stat: Abandoned
+      image: images/noimagery.jpg
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrNEJTZ2JFR3MzZXc
+
+    - title: GIF and Flash Viewer
+      desc: All in one monitoring tool that sits on the desktop sidebar.
+      date: Jun 2013
+      tag: Tools
+      stat: Abandoned
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrQXlXN2d5Ylc1Y2M
+
+    - title: Weather
+      desc: Simple MSDN weather API with fancy graphics (MSDN now offline)
+      date: May 2013
+      tag: Tools
+      stat: Abandoned
+      image: images/noimagery.jpg
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrME9wRUJNTnBLVHM
+
+    - title: Time Manager
+      desc: A simple time management (alarm notification) tool.
+      date: Apr 2013
+      tag: Tools
+      stat: Abandoned
+      image: images/noimagery.jpg
+      down: https://drive.google.com/open?id=0B0xI21kQ3jxrZ3dEd0UzLUhlcU0

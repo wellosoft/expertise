@@ -1,0 +1,28 @@
+---
+title: "Project Showcase"
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <div role="main" class="container">
+    <h1>Project Showcase</h1>
+
+    <br>
+    <p>This website contain summaries of all projects that <a href="https://github.com/willnode/">I</a>'ve been develop in the past, present, and future. Updated monthly</p>.
+    <p>You can use the filter below.</p>
+    <br>
+
+    {% include filter.html meta=site.data.metadata %}
+
+    {% include project.html projects=site.data.projects %}
+
+    {% include footer.html %}
+
+    {% include analytics.html %}
+  </div>
+</body>
+</html>

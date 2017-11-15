@@ -1,0 +1,157 @@
+
+/* project standard css */
+
+
+.projects {
+	width:100%;
+	padding: 0px;
+    display:inline-grid;
+    display:-ms-grid;
+    grid-template-columns: auto 40%;
+    grid-template-rows: min-content auto auto;
+    grid-gap: 5px;
+    overflow: hidden;
+    margin: 0px 5px;
+
+
+.thumb {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    overflow:hidden;
+    margin: 20px 0px;
+}
+
+img {
+	width:100%;
+	height:auto;
+}
+
+h3 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    text-align: left;
+    margin: 0px 5px;
+}
+
+ p {
+    grid-column: 1 / span 1;
+    text-align: left;
+    grid-row: 3 / span 1 ;
+    margin: 0px 5px;
+}
+
+ul {
+	grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    padding: 0px;
+    margin: 0px auto;
+}
+ul>li {
+	display: inline-block;
+    border-radius: 4px;
+    height: 36px;
+    width: 36px;
+}
+ul img {
+    height: 36px;
+    width: 36px;
+}
+
+.projects >pre {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+ul>li:hover {
+    box-shadow: 0 0 5px #000;
+	transition:box-shadow .2s ease;
+}
+
+}
+
+
+x {	            font-weight:bold;	}
+x.x-Started {	color:blue; }
+x.x-Active {	color:green; }
+x.x-Archived {	color:brown; }
+x.x-Deprecated {	color:orange; }
+x.x-Abandoned {	color:red; }
+
+
+/* filter for projects */
+
+.projects, h2 {
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.projects {
+    width: 100%;
+    max-width: 750px;
+    transition: width 0.3s ease-out;
+    display: grid;
+    transition: display 0s 0.3s;
+
+}
+
+{% for year in include.meta.years %}
+#filter-{{year}}:checked ~ .mask-{{ year }},
+{% endfor %}
+{% for tag in include.meta.tags %}
+#filter-{{tag | downcase}}:checked ~ .mask-{{tag | downcase }},
+{% endfor %}
+{% for stat in include.meta.stats %}
+#filter-{{stat | downcase }}:checked ~ .mask-{{stat | downcase }},
+{% endfor %}
+#filter-none:checked ~ .projects,
+{
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in;
+    display: inline-grid;
+}
+
+#filter-showheaders:checked ~ h2,
+{
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in;
+}
+
+#filter-twocolumn:checked ~ .projects {
+    width: 45%;
+    transition: width 0.3s ease-in;
+}
+
+
+
+/* label as button styling */
+
+input {
+    display: none;
+}
+
+label {
+    background: transparent;
+    margin: 5px 1px;
+    padding: 4px 5px;
+    display: inline-block;
+    font-weight: normal;
+    border: white 1px;
+    cursor: pointer;
+}
+
+{% for year in include.meta.years %}
+#filter-{{year}}:checked ~ .label-{{ year }},
+{% endfor %}
+{% for tag in include.meta.tags %}
+#filter-{{tag | downcase}}:checked ~ .label-{{tag | downcase }},
+{% endfor %}
+{% for stat in include.meta.stats %}
+#filter-{{stat | downcase }}:checked ~ .label-{{stat | downcase }},
+{% endfor %}
+#filter-none:checked ~ .label-none,
+#filter-twocolumn:checked ~ .label-twocolumn,
+#filter-showheaders:checked ~ .label-showheaders,
+{
+    font-weight: bold;
+    border: silver solid 1px;
+}

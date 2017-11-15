@@ -1,0 +1,3 @@
+{% capture namelow %}{{include.name | downcase | replace: " ", ""}}{% endcapture %}
+<input type="{{include.type | default: "radio"}}" id="filter-{{namelow}}" name="filter" {% if include.checked %}checked{% endif %}>
+<label for="filter-{{namelow}}" class="label-{{namelow}}">{{include.name}}</label>

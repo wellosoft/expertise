@@ -7,7 +7,8 @@
 /**/bin/
 /**/obj/
 /template/plugins/
-/images/
+/images/raw/
 _site
 _exported*
 .vscode/
+*.db
