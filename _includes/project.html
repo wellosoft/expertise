@@ -4,22 +4,17 @@
 <div class="projects mask-{{ year.year.year }} mask-{{project.tag | downcase }} mask-{{project.stat | downcase }}">
     {% capture slug %}{{ project.title | downcase | replace: ' ', '' }}{% endcapture %}
     <div class="thumb" id="{{ slug }}">
-        {% capture imgpath %}/images/{{project.tag | downcase }}-{{ slug }}.jpg{% endcapture %}
-        {% assign imgcnt = site.static_files | where: "path", imgpath | size %}
-        {% unless jekyll.environment == 'production' %}
-            {% if imgcnt > 0 %}
-            <img src="{{ imgpath | relative_url }}">
-            {% else %}
-            <img src="{{ "/images/noimagery.jpg" | relative_url }}">
-            {% endif %}
-            <i>https://cdn.rawgit.com/willnode/expertise/{{site.serial}}{{imgpath}}</i>
+        {% capture imgpath %}expertise/{{project.tag | downcase }}-{{ slug }}{% endcapture %}
+        {% assign imgfnd = include.images.resources | where: "public_id", imgpath %}
+        {% assign imgcnt = imgfnd | size %}
+
+        {% if imgcnt > 0 %}
+        {% assign imgfst = imgfnd | first %}
+        <img src="{{ imgfst.secure_url }}">
         {% else %}
-            {% if imgcnt > 0 %}
-            <img src="https://cdn.rawgit.com/willnode/expertise/{{site.serial}}{{imgpath}}">
-            {% else %}
-            <img src="https://cdn.rawgit.com/willnode/expertise/{{site.serial}}/images/noimagery.jpg">
-            {% endif %}
-        {% endunless %}
+        <img src="{{ "/images/noimagery.jpg" | relative_url }}">
+        {% endif %}
+      
     </div>
     <h3>{{ project.title }}</h3>
     <p>{{ project.desc }}</p>

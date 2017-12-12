@@ -3,6 +3,14 @@
     year: 2017
     projects:
 
+    - title: VS2017 LayoutInGUI
+      desc: Create VS 2017 Offline installation painlessly
+      date: Nov 2017
+      tag: Tools
+      stat: Active
+      git: https://github.com/willnode/Vs2017-LayoutInGUI
+      down: https://github.com/willnode/Vs2017-LayoutInGUI/releases/
+
     - title: ASCII Painter
       desc: Paint text and make art with it
       date: Nov 2017
@@ -61,7 +69,7 @@
       desc: A simple way to share clipboard data across LAN.
       date: Jul 2017
       tag: Tools
-      stat: Active
+      stat: Archived
       down: https://github.com/willnode/Socket-Clipboard/releases
       git: https://github.com/willnode/Socket-Clipboard
 

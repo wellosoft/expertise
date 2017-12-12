@@ -96,7 +96,3 @@ pre {
     border: 1px solid #ccc;
     margin: 0px;
 }
-
-/* filters */
-
-{% include filter.scss meta=site.data.metadata %}

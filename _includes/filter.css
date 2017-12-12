@@ -1,8 +1,8 @@
 
 /* project standard css */
 
-
 .projects {
+
 	width:100%;
 	padding: 0px;
     display:inline-grid;
@@ -13,59 +13,58 @@
     overflow: hidden;
     margin: 0px 5px;
 
+    .thumb {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+        overflow:hidden;
+        margin: 20px 0px;
+    }
 
-.thumb {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 1;
-    overflow:hidden;
-    margin: 20px 0px;
-}
+    img {
+        width:100%;
+        height:auto;
+    }
 
-img {
-	width:100%;
-	height:auto;
-}
+    h3 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        text-align: left;
+        margin: 0px 5px;
+    }
 
-h3 {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
-    text-align: left;
-    margin: 0px 5px;
-}
+    p {
+        grid-column: 1 / span 1;
+        text-align: left;
+        grid-row: 3 / span 1 ;
+        margin: 0px 5px;
+    }
 
- p {
-    grid-column: 1 / span 1;
-    text-align: left;
-    grid-row: 3 / span 1 ;
-    margin: 0px 5px;
-}
+    ul {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        padding: 0px;
+        margin: 0px auto;
+    }
+    ul>li {
+        display: inline-block;
+        border-radius: 4px;
+        height: 36px;
+        width: 36px;
+    }
+    ul img {
+        height: 36px;
+        width: 36px;
+    }
 
-ul {
-	grid-column: 2 / span 1;
-    grid-row: 2 / span 1;
-    padding: 0px;
-    margin: 0px auto;
-}
-ul>li {
-	display: inline-block;
-    border-radius: 4px;
-    height: 36px;
-    width: 36px;
-}
-ul img {
-    height: 36px;
-    width: 36px;
-}
+    .projects >pre {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+    }
 
-.projects >pre {
-    grid-column: 2 / span 1;
-    grid-row: 3 / span 1;
-}
-
-ul>li:hover {
-    box-shadow: 0 0 5px #000;
-	transition:box-shadow .2s ease;
-}
+    ul>li:hover {
+        box-shadow: 0 0 5px #000;
+        transition:box-shadow .2s ease;
+    }
 
 }
 
