@@ -4,17 +4,19 @@
 <div class="projects mask-{{ year.year.year }} mask-{{project.tag | downcase }} mask-{{project.stat | downcase }}">
     {% capture slug %}{{ project.title | downcase | replace: ' ', '' }}{% endcapture %}
     <div class="thumb" id="{{ slug }}">
+        {% unless page.noimage %}
         {% capture imgpath %}expertise/{{project.tag | downcase }}-{{ slug }}{% endcapture %}
         {% assign imgfnd = include.images.resources | where: "public_id", imgpath %}
         {% assign imgcnt = imgfnd | size %}
 
         {% if imgcnt > 0 %}
-        {% assign imgfst = imgfnd | first %}
-        <img src="{{ imgfst.secure_url }}">
+        {% assign im = imgfnd | first %}
+        {% capture imgurl %}https://res.cloudinary.com/wellosoft/image/upload/v{{ im.version }}/{{ im.public_id }}.{{ im.format }}{% endcapture %}
+        <img src="{{ imgurl }}">
         {% else %}
         <img src="{{ "/images/noimagery.jpg" | relative_url }}">
         {% endif %}
-      
+        {% endunless %}
     </div>
     <h3>{{ project.title }}</h3>
     <p>{{ project.desc }}</p>

@@ -1,7 +1,93 @@
+- year:
+    year: 2018
+    projects:
+
+    - title: Patron
+      desc: I'm launching a patreon channel! (and going to college)
+      date: Sep 2018
+      tag: Tools
+      stat: Started
+
+    - title: Videmall
+      desc: Put my stuff on YouTube!
+      date: Sep 2018
+      tag: Tools
+      stat: Started
+
+    - title: Doctor Color
+      desc: Fun with Color and Watches and Art analysis stuff using Web and PaperJS
+      date: Aug 2018
+      tag: Tools
+      stat: Started
+
+    - title: Testing?
+      desc: Come and see if i can be legit in Hackerone.com
+      date: Jun 2018
+      tag: Tools
+      stat: Started
+
+    - title: Gun Mad
+      desc: Short animation again with Skinned mesh, and gun.
+      date: May 2018
+      tag: Tools
+      stat: Started
+
+    - title: Spring to Winter
+      desc: Short animation with Eevee vs Unity3D (realistically)
+      date: Apr 2018
+      tag: Tools
+      stat: Started
+
+    - title: Unbeter
+      desc: Unofficial Unity3D + Cinematic and Blender + Eevee converter
+      date: Mar 2018
+      tag: Tools
+      stat: Started
+
+    - title: Eevee?
+      desc: Trying the upcoming Eeevee Runtime in Blender with Short film
+      date: Feb 2018
+      tag: Tools
+      stat: Started
+
+    - title: UAI?
+      desc: A Project for Unity AI challenge
+      date: Jan 2018
+      tag: Tools
+      stat: Started
+
+    - title: CLD?
+      desc: A Project for Unity Neon challenge, Utopia above the cloud
+      date: Jan 2018
+      tag: Tools
+      stat: Started
 
 - year:
     year: 2017
     projects:
+    - title: MeshKit
+      desc: Mesh helper and utilities for lean procedural generation
+      date: Dec 2017
+      tag: Tools
+      stat: Started
+
+    - title: Omm
+      desc: Oh my mesh! Profesionally inspect a mesh in Unity
+      date: Dec 2017
+      tag: Tools
+      stat: Started
+    
+    - title: Usink
+      desc: Unity scene navigation keybinding
+      date: Dec 2017
+      tag: Tools
+      stat: Started
+
+    - title: Hitt
+      desc: Build consistent modular level in blazing speed
+      date: Dec 2017
+      tag: Tools
+      stat: Started
 
     - title: VS2017 LayoutInGUI
       desc: Create VS 2017 Offline installation painlessly
@@ -11,11 +97,19 @@
       git: https://github.com/willnode/Vs2017-LayoutInGUI
       down: https://github.com/willnode/Vs2017-LayoutInGUI/releases/
 
+    - title: Cloudup
+      desc: A simple signed image upload to Cloudinary in pure JS
+      date: Nov 2017
+      tag: Tools
+      stat: Archived
+      git: https://github.com/willnode/Vs2017-LayoutInGUI
+      down: https://github.com/willnode/Vs2017-LayoutInGUI/releases/
+
     - title: ASCII Painter
       desc: Paint text and make art with it
       date: Nov 2017
       tag: Tools
-      stat: Active
+      stat: Archived
       git: https://github.com/willnode/Ascii-Painter
 
     - title: The Web and Blog
@@ -169,7 +263,8 @@
       date: Dec 2015
       tag: Library
       stat: Archived
-      git: https://github.com/willnode/Nafza-Faroidh
+      git: https://github.com/willnode/ComCalc
+      pop: http://wellosoft.net/ComCalc/index.html
 
     - title: Observatory
       desc: A 1:1 scale of solar system in Unity Game Engine
@@ -189,7 +284,7 @@
       comm: https://forum.unity3d.com/threads/beta-simple-procedural-skybox-3-0.467280/
 
     - title: 10 Skyboxes Day Night
-      desc: Collection of static sky panoramas for games.
+      desc: Collection of image sky panoramas ready for games.
       date: Sep 2015
       tag: Graphics
       stat: Archived
@@ -212,13 +307,13 @@
       down: https://drive.google.com/open?id=0B0xI21kQ3jxrbDQtWkZqQkhtc1E
 
     - title: Mesh 4D Engine
-      desc: A mesh morphing library that mimics 4D rotation.
+      desc: A mesh morphing library that mimics 4D rotation. (now replaced with Engine4)
       date: May 2015
       tag: Library
       stat: Deprecated
 
     - title: UI Tools
-      desc: A 1:1 scale of solar system in Unity Game Engine
+      desc: Small Unity 4.6 UI Utilities
       date: Apr 2015
       tag: Library
       stat: Deprecated
@@ -250,7 +345,6 @@
       date: Oct 2013
       tag: Tools
       stat: Abandoned
-      image: images/noimagery.jpg
       down: https://drive.google.com/open?id=0B0xI21kQ3jxrNEJTZ2JFR3MzZXc
 
     - title: GIF and Flash Viewer
@@ -265,7 +359,6 @@
       date: May 2013
       tag: Tools
       stat: Abandoned
-      image: images/noimagery.jpg
       down: https://drive.google.com/open?id=0B0xI21kQ3jxrME9wRUJNTnBLVHM
 
     - title: Time Manager
@@ -273,5 +366,4 @@
       date: Apr 2013
       tag: Tools
       stat: Abandoned
-      image: images/noimagery.jpg
       down: https://drive.google.com/open?id=0B0xI21kQ3jxrZ3dEd0UzLUhlcU0

@@ -10,9 +10,11 @@ The website is generated using Jekyll. All content written to single file `index
 
 Site build with [Jekyll](https://jekyllrb.com/), and other tools:
 
-+ Image CDN: [RawGit](https://rawgit.com)
++ Image CDN: [Cloudinary](https://cloudinary.com)
 + HTML Compress: [compress.html](https://github.com/penibelst/jekyll-compress-html)
 + GA Lite: [ga-lite](https://github.com/jehna/ga-lite)
+
+All content is generated dynamically via `_data` and preprocessed using liquid syntax. No plugin is necessary.
 
 # License
 Content under CC-BY-SA-4.0: `data/`, `images/`.

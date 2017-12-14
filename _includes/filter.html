@@ -9,5 +9,9 @@
 {% include filter-item.html name=stat %}
 {% endfor %}
 
+{% unless page.noimage %}
+{% include filter-item.html name="Two Column" checked=true type="checkbox" %}
+{% else %}
 {% include filter-item.html name="Two Column" checked=false type="checkbox" %}
+{% endunless %}
 {% include filter-item.html name="Show Headers" checked=true type="checkbox" %}
